@@ -1,0 +1,11 @@
+#!/usr/bin/dh-exec
+debian/flatcam-wrapper.sh => usr/bin/flatcam
+
+*.py                         usr/share/flatcam
+descartes                    usr/share/flatcam
+sandbox                      usr/share/flatcam
+share                        usr/share/flatcam
+tclCommands                  usr/share/flatcam
+FlatCAM_GTK                  usr/share/flatcam
+debian/flatcam.desktop       usr/share/applications
+debian/flatcam.1             usr/share/man/man1

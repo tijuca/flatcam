@@ -1,0 +1,14 @@
+#!/usr/bin/make -f
+
+#export DH_VERBOSE=1
+
+%:
+	dh $@ --with python2
+
+override_dh_auto_build:
+	# changing the upstream version by the Debian package release version
+	# before doing the build and packaging
+	sed -i '/.*version = [0-9].*/c\    version = '`dpkg-parsechangelog --show-field Version`'' FlatCAMApp.py
+	sed -i '/.*"number": [0-9].*/c\    "number": "'`dpkg-parsechangelog --show-field Version`'",' FlatCAMVersion.py
+	dh_auto_build
+	cd doc && make html

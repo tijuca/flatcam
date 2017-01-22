@@ -1,0 +1,17 @@
+[Desktop Entry]
+Name=FlatCAM
+Comment=PCB milling Tool for economical PCB prototyping
+GenericName=PCB milling software
+Exec=/usr/bin/flatcam %f
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Version=1.0
+Icon=flatcam
+Categories=Development;Electronics;Utility;Science;Graphics;
+Keywords=Gerber;Converter;PCB;FlatCAM;
+MimeType=application/x-gerber;application/x-excellon;
+Name[de]=FlatCAM
+Comment[de]=Ezeugen von Fräsdateien zur Erstellung von Leiterplatten-Prototypen
+GenericName[de]=PCB Frässoftware
+Keywords[de]=Gerber;Konvertieren;Leiterplatte

@@ -1,0 +1,4 @@
+# source                                                      # target
+/usr/share/javascript/jquery/jquery.min.js                    usr/share/flatcam-doc/html/_static/jquery.js
+/usr/share/javascript/underscore/underscore.js                usr/share/flatcam-doc/html/_static/underscore.js
+/usr/share/fonts-font-awesome/fonts/fontawesome-webfont.ttf   usr/share/flatcam-doc/html/_static/font/fontawesome_webfont.ttf
