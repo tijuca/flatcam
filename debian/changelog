@@ -1,0 +1,5 @@
+flatcam (8.5-1) unstable; urgency=medium
+
+  * first Debianisation and initial upload (Closes: #848484)
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sun, 22 Jan 2017 11:15:15 +0100
