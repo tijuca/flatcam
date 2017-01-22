@@ -9,7 +9,7 @@ Build-Depends:
  dh-exec,
  dh-python,
  python,
- python-sphinx,
+# python-sphinx,
 Standards-Version: 3.9.8
 
 Package: flatcam
@@ -39,25 +39,25 @@ Description: 2D Computer-Aided PCB Manufacturing on a CNC router
  .
  FlatCAM comes with a Tcl Shell interface to automate steps.
 
-Package: flatcam-doc
-Architecture: all
-Multi-Arch: foreign
-Section: doc
-Depends:
- fonts-font-awesome,
- libjs-jquery,
- libjs-modernizr,
- libjs-underscore,
- ${misc:Depends},
-Recommends:
- flatcam (>= ${source:Version}),
- www-browser,
-Description: 2D Computer-Aided PCB Manufacturing on a CNC router - documentation
- FlatCAM is a program for preparing CNC jobs to create prototyps of PCBs on a
- CNC router. You can open Gerber, Excellon or G-Code, edit it or create files
- from scratch, and output G-Code. Isolation routing is one of many tasks that
- FlatCAM is perfect for.
- .
- FlatCAM comes with a Tcl Shell interface to automate steps.
- .
- This package contain the Sphinx based documentation for FlatCAM.
+#Package: flatcam-doc
+#Architecture: all
+#Multi-Arch: foreign
+#Section: doc
+#Depends:
+# fonts-font-awesome,
+# libjs-jquery,
+# libjs-modernizr,
+# libjs-underscore,
+# ${misc:Depends},
+#Recommends:
+# flatcam (>= ${source:Version}),
+# www-browser,
+#Description: 2D Computer-Aided PCB Manufacturing on a CNC router - documentation
+# FlatCAM is a program for preparing CNC jobs to create prototyps of PCBs on a
+# CNC router. You can open Gerber, Excellon or G-Code, edit it or create files
+# from scratch, and output G-Code. Isolation routing is one of many tasks that
+# FlatCAM is perfect for.
+# .
+# FlatCAM comes with a Tcl Shell interface to automate steps.
+# .
+# This package contain the Sphinx based documentation for FlatCAM.

@@ -1,0 +1,10 @@
+= (Re-)enabling the flatcam-doc package =
+FlatCAM comes with a not up2date documenation and Juan Pablo Caram suggested
+to not include the current state of the doc/ folder into a -doc package.
+
+Remove the out-comment parts on B-D on python-sphinx and the package
+flatcam-doc in the control file. The debhelper sequenzer file are still around
+and also the patch queue is around for preparing some internal linking of needed
+files.
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sun, 22 Jan 2017 11:15:00 +0100
